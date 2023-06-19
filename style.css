@@ -1,0 +1,20 @@
+body
+{ background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(blood.jpg);
+    background-size:cover;
+    background-position:center;
+    opacity: 0.8;
+
+}
+.regform
+{
+    max-width:350px;
+    margin: 0% auto 0;
+    color: rgb(175, 22, 22);
+}
+.name
+{
+    max-width: 350px;
+    border:5px;
+    border-color: darkred;
+    position: static;
+}
