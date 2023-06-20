@@ -7,14 +7,27 @@ body
 }
 .regform
 {
+    justify-content: right;
     max-width:350px;
     margin: 0% auto 0;
     color: rgb(175, 22, 22);
 }
 .name
 {
+    justify-content: right;
     max-width: 350px;
     border:5px;
     border-color: darkred;
-    position: static;
+    position:static;
 }
+input[type=text]{
+    align-items: right;
+    border: none;
+    border-bottom: 2px solid red;
+    background-color: #f5f8f7;
+    color: white;
+}
+input[type=text]:focus{
+    background-color: lightblue;
+    border: 3px solid #555;
+}*/

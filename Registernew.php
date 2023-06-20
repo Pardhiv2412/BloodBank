@@ -52,6 +52,7 @@
         <textarea id="feedback" name="feedback" rows="4" cols="50"></textarea></br></br>
 <a href = "register.html">        
 <button type="submit" value="Submit">Submit</button>
+</form>
 	</a>
     </div>
 </body>
