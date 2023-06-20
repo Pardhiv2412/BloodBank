@@ -69,7 +69,7 @@ input[type=text]:focus{
 	    -ms-transition: all .5s ease;
 	     -o-transition: all .5s ease;
 	        transition: all .5s ease;*/
-            box-shadow: 0 0 10px rgba(239, 107, 107, 0.5) inset;
+            /*box-shadow: 0 0 10px rgba(239, 107, 107, 0.5) inset;*/
      text-align: left;
      display: inline-block;
     /*margin-top: 20px;*/
@@ -79,7 +79,7 @@ input[type=text]:focus{
   .userid, .name {
     text-align: left;
     display:block;
-    box-shadow: 0 0 10px rgba(247, 89, 94, 0.5);
+   /* box-shadow: 0 0 10px rgba(247, 89, 94, 0.5);*/
     margin-right: 10px;
   }
   
