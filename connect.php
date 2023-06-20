@@ -1,18 +1,34 @@
+<!DOCTYPE html>
+<html>
+<body>
 <?php
-$firstName = $_POST['firstName'];
-$lastName = $_POST['lastName'];
-$gender = $_POST['gender'];
-$email= $_POST['email'];
-$password= $_POST['password'];
-$conn = new mysqli('Nikhitha','root@localhost','nikki@2422','blood');
-if($conn->connect_error){
-    die('Connection Failed :'.$conn->connect_error);
-}else{
-    $stmt = $conn->prepare("insert into registration(firstName,lastName,gender,email,password)values(?,?,?,?,?)");
-    $stmt->bind_param("sssss",$firstName,$lastName,$gender,$email,$password);
-    $stmt->execute();
-    echo"Regitered Sucessfully...";
-    $stmt->close();
-    $conn->close();
-}
+//Database connection here
+$conn = new mysqli('localhost'
+,'root','','testdb');
+if($conn === false){
+  die("ERROR: Could not connect. "
+                . mysqli_connect_error());
+        }
+        $username = $_REQUEST['userid'];
+	$firstname = $_REQUEST['_name'];
+	$dob = $_REQUEST['birthday'];
+	$lstdate = $_REQUEST['date'];
+	$address = $_REQUEST['address'];
+	$email = $_REQUEST['email'];
+	$phno = $_REQUEST['phone'];
+	$bldgrp = $_REQUEST['blood_group'];
+
+$sql = "INSERT INTO form  VALUES ('$username','$firstname','$dob','$lstdate','$address','$email','$phno','$bldgrp')";
+if(mysqli_query($conn, $sql)){
+            echo "<h3>Data stored in a database successfully.";
+        }
+ else{
+            echo "ERROR: Hush! Sorry $sql. "
+                . mysqli_error($conn);
+        }
+         
+        // Close connection
+        mysqli_close($conn);
 ?>
+</body>
+</html>
