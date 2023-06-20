@@ -5,8 +5,7 @@
 </head>
 <body>
     <div class="regform"><h1>Blood Donation form</h1></div>
-    <div class="regform">Give blood save life</div>
-    <div class="regform">Doners registration form</div>
+    <div class="regform"><h3>Give blood save life</h3></div>
     <form>
         <form action ="connect.php" method="post"></form>
         <div class ="name">

@@ -7,6 +7,7 @@ body
 }
 .regform
 {
+
     justify-content: right;
     max-width:350px;
     margin: 0% auto 0;
@@ -14,7 +15,9 @@ body
 }
 .name
 {
-    justify-content: right;
+    margin: right 40%;;
+    align-content: space-between;
+    justify-content: center;
     max-width: 350px;
     border:5px;
     border-color: darkred;
@@ -23,11 +26,107 @@ body
 input[type=text]{
     align-items: right;
     border: none;
-    border-bottom: 2px solid red;
-    background-color: #f5f8f7;
-    color: white;
+    border-bottom: 2px solid rgb(246, 20, 20);
+    background-color: #f0ebeb;
+    color: rgb(12, 11, 11);
 }
 input[type=text]:focus{
-    background-color: lightblue;
     border: 3px solid #555;
 }*/
+.regform {
+    text-align: center;
+    margin: 20px;
+  }
+  
+  h1 {
+     font-style: italic;
+     font-size: 30px;
+     display: block;
+     white-space: initial;
+     text-align: start;
+    color: #830e0e;
+  }
+  
+  h2 {
+     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+     display: block;
+    white-space: initial;
+    color: #400505;
+    font-size: 18px;
+  }
+  
+  h3 {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    display: block;
+   white-space: initial;
+   color: #400505;
+   font-size: 22px;
+ }
+ 
+  .name {
+    /*-webkit-transition: all .5s ease;
+	   -moz-transition: all .5s ease;
+	    -ms-transition: all .5s ease;
+	     -o-transition: all .5s ease;
+	        transition: all .5s ease;*/
+            box-shadow: 0 0 10px rgba(239, 107, 107, 0.5) inset;
+     text-align: left;
+     display: inline-block;
+    /*margin-top: 20px;*/
+    font-weight: bold;
+  }
+  
+  .userid, .name {
+    text-align: left;
+    display:block;
+    box-shadow: 0 0 10px rgba(247, 89, 94, 0.5);
+    margin-right: 10px;
+  }
+  
+  input[type="text"],
+  textarea {
+    display: block;
+    width: 80%;
+    padding: 10px;
+    border: 1px solid #d11d1d;
+    border-radius: 4px;
+  }
+  
+  textarea {
+    height: 60px;
+  }
+  
+  label {
+    display:list-item;
+    width: 100px;
+    font-weight: bold;
+    margin-right: 10px;
+  }
+  
+  .select {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  button {
+    align-self:last baseline;
+    background-color: #b40e0e;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
