@@ -2,14 +2,13 @@
 <html>
 <body>
 <?php
-//Database connection here
+
 $conn = new mysqli('localhost'
 ,'root','Pachu@2412','testdb');
 if($conn === false){
   die("ERROR: Could not connect. "
                 . mysqli_connect_error());
 }
-        //$username = $_REQUEST['userid'];
 	$firstname = $_REQUEST['name'];
 	$dob = $_REQUEST['dob'];
 	$lstdate = $_REQUEST['last_donation'];
@@ -19,16 +18,23 @@ if($conn === false){
 	$bldgrp = $_REQUEST['blood_group'];
 
 $sql = "INSERT INTO form  VALUES ('$firstname','$dob','$lstdate','$address','$email','$phno','$bldgrp')";
-if(mysqli_query($conn, $sql)){
+try{
+        if(mysqli_query($conn, $sql)){
             echo "<h3>Data stored in a database successfully.";
         }
- else{
-            echo "ERROR: Hush! Sorry $sql. "
-                . mysqli_error($conn);
+}
+catch (mysqli_sql_exception $e) {
+        $errorCode = $e->getCode();
+        if ($errorCode === 1062){
+                header("Location: error.php");
         }
+        else{
+                echo "Hush! Something went wrong!";
+        }
+}
          
-        // Close connection
-        mysqli_close($conn);
+mysqli_close($conn);
+        
 ?>
 </body>
 </html>

@@ -34,12 +34,14 @@
             <div class="contact-box">
                 <div class="left"></div>
                 <div class="right">
+                <form action ="connecthelp.php" method="POST">
                     <h2>Connect with us </h2>
-                    <input type="text" class="field" placeholder="Your Name">
-                    <input type="text" class="field" placeholder="Your Email">
-                    <input type="text" class="field" placeholder="Phone">
-                    <textarea placeholder="Message" class="field"></textarea>
+                    <input type="text" class="field" placeholder="Your Name" id="name" name="name">
+                    <input type="email" class="field" placeholder="Your Email" id="email" name="email">
+                    <input type="tel" class="field" placeholder="Phone" id="phone" name="phone">
+                    <textarea placeholder="Message" class="field" id="message" name="message"></textarea>
                     <button class="btn">Send</button>
+                </form>
                 </div>
             </div>
         </div>

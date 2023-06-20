@@ -30,6 +30,7 @@ input[type="text"],
 input[type="date"],
 input[type="email"],
 input[type="tel"],
+select,
 textarea {
   font-family: Comic Sans MS;
   width: 100%;
