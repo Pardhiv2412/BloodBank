@@ -15,7 +15,7 @@ form {
   max-width: 400px;
   margin: 0 auto;
   padding: 20px;
-  background-color: rgba(255, 255, 255, 0.8); /* Adjust opacity here */
+  background-color: rgba(255, 255, 255, 0.8); 
   border-radius: 4px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
@@ -31,6 +31,7 @@ input[type="date"],
 input[type="email"],
 input[type="tel"],
 textarea {
+  font-family: Comic Sans MS;
   width: 100%;
   padding: 8px;
   border: 1px solid #ccc;
