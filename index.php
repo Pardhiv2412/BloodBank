@@ -25,7 +25,7 @@
         <video autoplay muted loop plays-inline id="homevideo">
             <source src="./video/homevideo1.mp4" type="video/mp4">
         </video>
-        <div id="logo"> <a href="index.html"><img src="Images\blood-removebg-preview.png"></a>
+        <div id="logo"> <a href="index.php"><img src="Images\blood-removebg-preview.png"></a>
         </div>
         <div id="nav">
             <div class="header-list" id="headerl">
@@ -33,8 +33,8 @@
                 <ul>
                     <li><a class="scroll" href="#about-us">About Us</a></li>
                     <li><a class="scroll" href="#vol-sect">Volunteer</a></li>
-                    <li><a href="donate.html" target="_blank">Donate</a></li>
-                    <li><a href="help.html" target="_blank">Get Help</a></li>
+                    <li><a href="donate.php" target="_blank">Donate</a></li>
+                    <li><a href="help.php" target="_blank">Get Help</a></li>
                 </ul>
             </div>
             <i class="fa fa-bars" onclick="showMenu()"></i>
@@ -43,7 +43,7 @@
             <h1> Start </h1>
             <h1>Saving Lives </h1>
             <p>Become a donor or request for blood And help save lives</p>
-            <a href='Register.html' class="hero-btn" target="_blank">Register</a>
+            <a href='Register.php' class="hero-btn" target="_blank">Register</a>
         </div>
     </header>
 
@@ -154,8 +154,8 @@
 
             <li class="vol">
                 <span class=" vol-i number">5</span>
-                <span class=" vol-i name">Parvathy S N air</span>
-                <span class=" vol-i location">Kerala,<br>Uttar Pradesh</span>
+                <span class=" vol-i name">Parvathy S Nair</span>
+                <span class=" vol-i location">Kerala,<br>India</span>
                 <span class=" vol-i blood group"> O+<i class="fa fa-tint" aria-hidden="true"></i>
                 </span>
             </li>
@@ -169,32 +169,32 @@
         <div class="row-customer">
             <div class="col-customer span-1-of-3-customer customer-box">
                 <div class="customer-text-box">
-                    Blood Buddy is just awesome! I just donated for the first time and it could not have been
-                    easier.Blood Buddy is doing a very important work and I'm happy that I could contribute . It's
+                    Donataro  is just awesome! I just donated for the first time and it could not have been
+                    easier.Donataro is doing a very important work and I'm happy that I could contribute . It's
                     hygienic,safe and convenient, I recommend it to everyone!
                 </div>
                 <div class="customer">
                     <img src="Images/review-3.PNG" alt="Customer photo">
-                    <p>Esha Puri </p>
+                    <p>Pardhiv Krishna</p>
                 </div>
             </div>
 
             <div class="col-customer span-1-of-3-customer customer-box">
                 <div class="customer-text-box">
-                    I found Blood Buddy at a time that my mother was in urgent need of blood. Blood Buddy arranged the
+                    I at a time that my mother was in urgent need of blood. Donataro arranged the
                     required amount in no time. It saved us a lot of hassle and worry especially in such a trying
-                    time.<br> Thank you Blood Buddy!
+                    time.<br> Thank you Donataro!
                 </div>
                 <div class="customer">
                     <img src="Images/review-2.PNG" alt="Customer photo">
-                    <p>Sonia</p>
+                    <p>Norah</p>
                 </div>
             </div>
             <div class="col-customer span-1-of-3-customer customer-box">
                 <div class="customer-text-box">
                     I have been a part of this organization for quite some time and each time I'm amazed by the seamless
                     and efficient system in place.The importance of timely care especially in the recent times is known
-                    and having Blood Buddy takes a load off my mind.
+                    and having Donataro takes a load off my mind.
                 </div>
                 <div class="customer">
                     <img src="Images/review-1.PNG" alt="Customer photo">
@@ -217,7 +217,7 @@
             <p>Donating blood or platelets can be intimidating and even scary. Time to put those hesitations
                 and
                 fears
-                aside. Learn from Blood Buddy and platelet donors how simple and easy it is to roll up a
+                aside. Learn from Donataro and platelet donors how simple and easy it is to roll up a
                 sleeve
                 and help
                 save lives.</p>

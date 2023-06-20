@@ -15,10 +15,10 @@
     <div class="header-logo"><img src="./Images/bb_logo(black).png"></div>
     <div class="header-list">
         <ul>
-            <li><a href="help.html">Get Help</li></a>
-            <li><a href="donate.html">Donate</li></a>
-            <li><a href="index.html#vol-sect">Volunteer</li></a>
-            <li><a href="index.html#about-us">About Us</a></li>
+            <li><a href="help.php">Get Help</li></a>
+            <li><a href="donate.php">Donate</li></a>
+            <li><a href="index.php#vol-sect">Volunteer</li></a>
+            <li><a href="index.php#about-us">About Us</a></li>
             </ul>
     </div>
     </nav>
