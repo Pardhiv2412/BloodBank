@@ -8,37 +8,32 @@
     <div class="regform">Give blood save life</div>
     <div class="regform">Doners registration form</div>
     <form action ="connect.php" method="POST">
-    
-        <div class ="name">
-            <h0 class="userid">username</h0>
-            <input class="username" type="text" name="userid" size=19>
-            <h2 class="name">Name</h2>
-			<label class="firstlabel">First name: &nbsp &nbsp</label>
-            <input class="firstName"type="text" name="first_name" size=19></br>
-            <label class="lastlabel">Last name: &nbsp &nbsp </label>
-            <input class="lastName"type="text"name="last_name" size=19>   
-        </div>
-        <h2 class="name">Date of birth</h2>
-        <label for="birthday">Birthday:&nbsp&nbsp</label>
+        <!-- <div class ="name"> -->
+            
+            <h3 class="name">Name</h2>
+
+            <input class="firstName" type="text" name="first_name" size=35></br>
+
+       <!-- </div> -->
+        <h3 class="name">Date of birth:</h2>
         <input type="date" id="birthday" name="birthday">
 
-        <h2 class="name">Last Donate Date</h2>
-        <label for="date">Date:</label>
+        <h3 class="name">Last Donate Date</h2>
         <input type="date" id="date" name="date">
 
-        <h2 class="name">Address</h2>
-        <textarea id="address" name="address" rows="4" cols="50"></textarea>
+        <h3 class="name">Address</h2>
+        <textarea id="address" name="address" rows="4" cols="35"></textarea>
         
-        <h2 class="name">Email</h2>
+        <h3 class="name">Email</h2>
         <input class="email"type="text"name="email">
         
-        <h2 class="name">Phone</h2>
-        <label class="phone-number">Phone number&nbsp</label>
+        <h3 class="name">Phone</h2>
+        <!-- <label class="phone-number">Phone number&nbsp</label> -->
         <input class ="number"type="text"name="phone">
        
-        <h2 class="name">Blood Group</h2>
-        <select class="option" name="blood group">
-         <option group="option"selected="selected">--choose option</option>
+        <h3 class="name">Blood Group</h2>
+        <select class="option" name="blood_group">
+         <option group="option" selected="selected">--choose option</option>
          <option>A+</option>
          <option>O+</option>
          <option>B+</option>
