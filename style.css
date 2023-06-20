@@ -32,6 +32,9 @@ input[type=text]{
 }
 input[type=text]:focus{
     border: 3px solid #555;
+<<<<<<< HEAD
+}
+=======
 }*/
 .regform {
     text-align: center;
@@ -130,3 +133,4 @@ input[type=text]:focus{
     text-decoration: none;
   }
   
+>>>>>>> 5290f2c7d91aaa841992a4967e13ebaeee2a1cf4
