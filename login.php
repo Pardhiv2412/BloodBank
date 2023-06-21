@@ -31,7 +31,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $error = "Invalid username or password. Please try again.";
   }
   else {
-    header("Location: select2.php");
+    header("Location: selectdonor.php");
       exit();
   }
   mysqli_close($conn);

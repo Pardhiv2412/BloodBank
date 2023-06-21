@@ -1,64 +1,69 @@
 body {
-            font-family: "NTR", sans-serif;
-            background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(blood.jpg);
-            background-size: cover;
-            background-size: cover;
-            background-position: center center;
-            opacity: 0.8;
-        }
+    font-family: "NTR", sans-serif;
+    background-image: url(blood.jpg);
+    background-size: cover;
+    background-position: center center;
+    opacity: 0.8;
+    background-attachment: fixed;
+}
 
-        #header {
-            text-align: center;
-            padding: 20px;
-        }
+#header {
+    text-align: center;
+    padding: 20px;
+}
 
-        #donor-table {
-            margin: 20px auto;
-            border-collapse: collapse;
-            width: 80%;
-            border-radius: 10px;
-            overflow: hidden; 
-        }
+#donor-table {
+    margin: 20px auto;
+    border-collapse: collapse;
+    width: 80%;
+    border-radius: 10px; /* Rounded corners */
+    overflow: hidden; /* Hide the overflowing border-radius */
+}
 
-        #donor-table th,
-        #donor-table td {
-            padding: 10px;
-            border: 2px solid #FFF;
-        }
+#donor-table th,
+#donor-table td {
+    padding: 10px;
+    border: 2px solid #FFF;
+}
 
-        #donor-table th {
-            background-color: #FFABA8;
-        }
+#donor-table th {
+    font-family: Comic Sans MS;
+    background-color: #fd8d8d;
+}
 
-        #donor-table td {
-            background-color: #FFD9D8;
-        }
+#donor-table td {
+    font-family: Comic Sans MS;
+    background-color: #ffc5c5;
+}
 
-        #blood-group-filter {
-            text-align: center;
-            padding: 10px;
-        }
+#blood-group-filter {
+    font-family: Comic Sans MS;
+    text-align: center;
+    padding: 10px;
+}
 
-        #blood-group,
-        #filter-btn {
-            padding: 5px;
-            font-size: 16px;
-            border-radius: 5px;
-            border: none;
-            outline: none;
-        }
+#blood-group {
 
-        #blood-group {
-            margin-right: 10px;
-        }
+    padding: 5px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+}
+#back-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    padding: 10px 20px;
+    border-radius: 20px; /* Add round corners */
+    background-color: #fd5353;
+    color: white;
+    text-decoration: none;
+}
 
-        #filter-btn {
-            background-color: #FF3333;
-            color: #FFF;
-            cursor: pointer;
-            transition: background-color 0.3s;
-        }
-
-        #filter-btn:hover {
-            background-color: #FF0000;
-        }
+#back-button:hover {
+    background-color: #FF6666;
+}
+label,select {
+    font-family: Comic Sans MS;
+}
