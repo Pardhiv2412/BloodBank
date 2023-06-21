@@ -6,7 +6,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
   // Database connection configuration
   $localhost = "localhost";
   $username_db = "root";
-  $password_db = "nikki@2422";
+  $password_db = "Pachu@2412";
   $dbname = "testdb";
   $flag=0;
 
@@ -31,7 +31,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $error = "Invalid username or password. Please try again.";
   }
   else {
-    header("Location: select.php");
+    header("Location: select2.php");
       exit();
   }
   mysqli_close($conn);

@@ -1,0 +1,64 @@
+body {
+            font-family: "NTR", sans-serif;
+            background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(blood.jpg);
+            background-size: cover;
+            background-size: cover;
+            background-position: center center;
+            opacity: 0.8;
+        }
+
+        #header {
+            text-align: center;
+            padding: 20px;
+        }
+
+        #donor-table {
+            margin: 20px auto;
+            border-collapse: collapse;
+            width: 80%;
+            border-radius: 10px;
+            overflow: hidden; 
+        }
+
+        #donor-table th,
+        #donor-table td {
+            padding: 10px;
+            border: 2px solid #FFF;
+        }
+
+        #donor-table th {
+            background-color: #FFABA8;
+        }
+
+        #donor-table td {
+            background-color: #FFD9D8;
+        }
+
+        #blood-group-filter {
+            text-align: center;
+            padding: 10px;
+        }
+
+        #blood-group,
+        #filter-btn {
+            padding: 5px;
+            font-size: 16px;
+            border-radius: 5px;
+            border: none;
+            outline: none;
+        }
+
+        #blood-group {
+            margin-right: 10px;
+        }
+
+        #filter-btn {
+            background-color: #FF3333;
+            color: #FFF;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        #filter-btn:hover {
+            background-color: #FF0000;
+        }
