@@ -34,7 +34,7 @@
         // Database connection settings
         $host = 'localhost';
         $username = 'root';
-        $password = 'nikki@2422';
+        $password = 'Pachu@2412';
         $database = 'testdb';
 
         // Create connection
@@ -52,13 +52,13 @@
         // Loop through each row in the result set
         while ($row = $result->fetch_assoc()) {
             echo "<tr>";
-            echo "<td>" . $row['name'] . "</td>";
+            echo "<td>" . $row['firstname'] . "</td>";
             echo "<td>" . $row['dob'] . "</td>";
-            echo "<td>" . $row['last_don'] . "</td>";
+            echo "<td>" . $row['lst_date'] . "</td>";
             echo "<td>" . $row['address'] . "</td>";
             echo "<td>" . $row['email'] . "</td>";
             echo "<td>" . $row['phone'] . "</td>";
-            echo "<td>" . $row['bld_grp'] . "</td>";
+            echo "<td>" . $row['blood_grp'] . "</td>";
             echo "</tr>";
         }
 

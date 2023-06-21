@@ -3,11 +3,9 @@
 <body>
 <?php
 
-$conn = new mysqli('localhost'
-,'root','nikki@2422','testdb');
+$conn = new mysqli('localhost','root','Pachu@2412','testdb');
 if($conn === false){
-  die("ERROR: Could not connect. "
-                . mysqli_connect_error());
+  die("ERROR: Could not connect. " . mysqli_connect_error());
 }
 	$firstname = $_REQUEST['name'];
 	$dob = $_REQUEST['dob'];
@@ -34,9 +32,7 @@ catch (mysqli_sql_exception $e) {
                 echo "Hush! Something went wrong!";
         }
 }
-         
-mysqli_close($conn);
-        
+mysqli_close($conn); 
 ?>
 </body>
 </html>
