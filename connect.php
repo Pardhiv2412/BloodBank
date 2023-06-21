@@ -20,7 +20,9 @@ if($conn === false){
 $sql = "INSERT INTO form  VALUES ('$firstname','$dob','$lstdate','$address','$email','$phno','$bldgrp')";
 try{
         if(mysqli_query($conn, $sql)){
-            echo "<h3>Data stored in a database successfully.";
+                
+             echo '<a href="print.html"> </a>';
+
         }
 }
 catch (mysqli_sql_exception $e) {
