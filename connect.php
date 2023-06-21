@@ -3,7 +3,7 @@
 <body>
 <?php
 
-$conn = new mysqli('localhost','root','Pachu@2412','testdb');
+$conn = new mysqli('localhost','root','nikki@2422','testdb');
 if($conn === false){
   die("ERROR: Could not connect. " . mysqli_connect_error());
 }
@@ -19,7 +19,7 @@ $sql = "INSERT INTO form  VALUES ('$firstname','$dob','$lstdate','$address','$em
 try{
         if(mysqli_query($conn, $sql)){
                 
-             echo '<a href="print.html"> </a>';
+             header("Location:print.html");
 
         }
 }

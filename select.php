@@ -34,7 +34,7 @@
         // Database connection settings
         $host = 'localhost';
         $username = 'root';
-        $password = 'Pachu@2412';
+        $password = 'nikki@2422';
         $database = 'testdb';
 
         // Create connection
