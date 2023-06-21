@@ -4,7 +4,7 @@
 <?php
 
 $conn = new mysqli('localhost'
-,'root','Pachu@2412','testdb');
+,'root','nikki@2422','testdb');
 if($conn === false){
   die("ERROR: Could not connect. "
                 . mysqli_connect_error());
