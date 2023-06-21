@@ -2,13 +2,32 @@
 <html>
 <head>
     <title>Table Details</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+        
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+        }
+        
+        th {
+            background-color: #f2f2f2;
+        }
+    </style>
 </head>
 <body>
     <table>
         <tr>
-            <th>ID</th>
             <th>Name</th>
+            <th>Date of Birth</th>
+            <th>Last Donation</th>
+            <th>Address</th>
             <th>Email</th>
+            <th>Phone No.</th>
+            <th>Blood Group</th>
         </tr>
 
         <?php
@@ -36,8 +55,10 @@
             echo "<td>" . $row['name'] . "</td>";
             echo "<td>" . $row['dob'] . "</td>";
             echo "<td>" . $row['last_don'] . "</td>";
-            echo "<td>" . $row['phone'] . "</td>";
+            echo "<td>" . $row['address'] . "</td>";
             echo "<td>" . $row['email'] . "</td>";
+            echo "<td>" . $row['phone'] . "</td>";
+            echo "<td>" . $row['bld_grp'] . "</td>";
             echo "</tr>";
         }
 
