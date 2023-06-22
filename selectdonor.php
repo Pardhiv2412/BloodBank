@@ -57,7 +57,11 @@
         </thead>
         <tbody>
             <?php
-            // Database connection
+            session_start();
+            if(isset($_SESSION['Name'])){
+                $loggedInUsername = $_SESSION['Name'];
+                echo "<h2>$loggedInUsername</h2>";
+            }
             $servername = "localhost";
             $username = "root";
             $password = "Pachu@2412";

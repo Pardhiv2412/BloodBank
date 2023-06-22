@@ -24,6 +24,9 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
   while($row=$result->fetch_assoc()) {
     if($row['password']==$password){
       $flag=1;
+      $loggedInUsername = $row['Name'];
+      session_start();
+      $_SESSION['Name'] = $loggedInUsername;
       break;
     }
   }
@@ -36,8 +39,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
   }
   mysqli_close($conn);
 }
-  ?>
-  <!DOCTYPE html>
+?>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>

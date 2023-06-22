@@ -80,3 +80,9 @@ body {
 label,select {
     font-family: Comic Sans MS;
 }
+h2 {
+    font-size: 1.2rem;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
