@@ -74,7 +74,7 @@
 
             if ($result->num_rows > 0) {
                 while ($row = $result->fetch_assoc()) {
-                    echo "<tr>";
+                    echo "<tr class='vol'>";
                     echo "<td>" . $row["firstname"] . "</td>";
                     echo "<td>" . $row["dob"] . "</td>";
                     echo "<td>" . $row["lst_date"] . "</td>";
