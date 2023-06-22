@@ -175,7 +175,7 @@
                 </div>
                 <div class="customer">
                     <img src="Images/review-3.PNG" alt="Customer photo">
-                    <p>Pardhiv Krishna</p>
+                    <p>Aniladaya</p>
                 </div>
             </div>
 
@@ -187,7 +187,7 @@
                 </div>
                 <div class="customer">
                     <img src="Images/review-2.PNG" alt="Customer photo">
-                    <p>Norah</p>
+                    <p>Pardhiv Krishna</p>
                 </div>
             </div>
             <div class="col-customer span-1-of-3-customer customer-box">
