@@ -3,7 +3,7 @@
 <body>
 <?php
 
-$conn = new mysqli('localhost','root','nikki@2422','testdb');
+$conn = new mysqli('localhost','root','Pachu@2412','testdb');
 if($conn === false){
   die("ERROR: Could not connect. " . mysqli_connect_error());
 }

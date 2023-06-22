@@ -5,7 +5,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
   // Database connection configuration
   $localhost = "localhost";
   $username_db = "root";
-  $password_db = "nikki@2422";
+  $password_db = "Pachu@2412";
   $dbname = "testdb";
   $flag=0;
 

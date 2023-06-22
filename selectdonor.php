@@ -60,7 +60,7 @@
             // Database connection
             $servername = "localhost";
             $username = "root";
-            $password = "nikki@2422";
+            $password = "Pachu@2412";
             $database = "testdb";
 
             $conn = new mysqli($servername, $username, $password, $database);
