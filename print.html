@@ -24,19 +24,19 @@
         <div id="nav">
             <div class="header-list" id="headerl">
                 <i class="fa fa-times" onclick="hideMenu()"></i>
-                <ul>
-                    <li><a href="index.php" target="_blank">Home</a></li>
-                    <li><a class="index.php" href="#vol-sect">Volunteers</a></li>
-                    <li><a href="login.php" target="_blank">Admin</a></li>
-                </ul>
             </div>
             <i class="fa fa-bars" onclick="showMenu()"></i>
         </div>
     <h1>Sucessfully Registered</h1>
+    <div class="centered">
+        <form action="index.php">
+            <button class="home" type="submit">HOME</button>
+        </form>
     
     <style>
         h1{
-            position:relative;left: 10px;top: 400px;
+            font-size: 54px;
+            position:relative;left: 0px;right: 7px;top: 250px;
             text-align:center;
             bottom: 40%;
             color: black;
@@ -46,6 +46,28 @@
             background-image: url("div.jpg");
             background-position: center;
         }
+        form {
+  text-align: center;
+}
+
+.home {
+    position: relative;top: 300px;
+  padding: 12px 22px;
+  background-color: #e21818;
+  color: white;
+  text-decoration: none;
+  font-size: 24px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.home:hover {
+  background-color: #0992ab;
+  transform: translateY(-2px);
+}
+
         
     </style>
    </body>
