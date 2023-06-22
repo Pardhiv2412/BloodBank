@@ -7,7 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href='help.css'>
-    <link rel="icon" href='./Images/bb_logo(black).png' type="image/png">
+    <link rel="icon" href='blood-removebg-preview.png' type="image/png">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
 </head>
 <title>Connect with us </title>
@@ -16,10 +16,10 @@
 
     <header>
         <nav>
-            <div class="header-logo"><img src="./Images/bb_logo(black).png"></div>
+            <div class="header-logo"><img src="blood-removebg-preview.png"></div>
             <div class="header-list">
                 <ul>
-                    <li><a href="help.php">Get Help</a></li>
+        
                     <li><a href="donate.php">Donate</a></li>
                     <li><a href="index.php#vol-sect">Volunteer</a></li>
                     <li><a href="index.php#about-us">About Us</a></li>
@@ -41,7 +41,7 @@
                     <input type="email" class="field" placeholder="Your Email" id="email" name="email">
                     <input type="tel" class="field" placeholder="Phone" id="phone" name="phone">
                     <textarea placeholder="Message" class="field" id="message" name="message"></textarea>
-                    <button class="btn">Send</button>
+                    <button class="btn">Submit</button>
                 </form>
                 </div>
             </div>

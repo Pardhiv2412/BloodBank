@@ -27,14 +27,14 @@ header{
 .header-logo{
     font-size: 10px;
     float: left;
-    padding-left: 30px;
+    padding-left: 0px;
     padding-top: 0px;
-    padding-bottom: 12%;
+    padding-bottom: 3%;
 
 }
 
 .header-logo > img {
-    width: 70%;
+    width: 50%;
 }
 
 .header-list ul li a {
@@ -73,7 +73,7 @@ header ul li a:hover{
 	display: flex;
 	justify-content: center;
 	align-items: center;
-    padding-top: 20%;
+    padding-top: 10%;
 }
 
 .container:after{
@@ -89,6 +89,7 @@ header ul li a:hover{
 	z-index: -1;
 }
 .contact-box{
+    font-family: Comic Sans MS;
 	max-width: 850px;
 	display: grid;
 	grid-template-columns: repeat(2, 1fr);
@@ -99,6 +100,9 @@ header ul li a:hover{
 	box-shadow: 0px 0px 19px 5px rgba(0,0,0,0.19);
     padding-right: 10px;
 
+}
+input[type="text"],input[type="email"],input[type="tel"]{
+    font-family: Comic Sans MS;
 }
 
 .left{
@@ -147,6 +151,7 @@ h2:after{
 
 textarea{
 	min-height: 150px;
+    font-family: Comic Sans MS;
 }
 
 .btn{
