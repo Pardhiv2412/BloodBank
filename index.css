@@ -226,7 +226,7 @@ header {
   }
 }
 
-/*ABOUT*/
+
 
 .about {
   width: 80%;
@@ -348,7 +348,7 @@ main {
 
 /* ABOUT ENDS */
 
-/*Volunteer*/
+
 .volunteer {
   background: #f08080;
   font-family: sans-serif;
@@ -636,7 +636,7 @@ main {
       padding: 30px;
     }
   }
-  /*ABOUT*/
+  /ABOUT/
 
   .about {
     width:98%;
@@ -751,7 +751,7 @@ main {
     }
   }
   /* ABOUT ENDS */
-  /*Volunteer*/
+  /Volunteer/
 
   .volunteer {
     background: #f08080;
@@ -793,7 +793,7 @@ html {
 #myBtn:hover {
   background-color: black;
 }
-/*Footer*/
+
 .sec {
   border-top-left-radius: 40px;
   background: black;
@@ -1036,7 +1036,7 @@ html {
   padding-top: 20px;
   text-align: center;
 }
-/*Footer*/
+
 
 footer {
   position: relative;
@@ -1217,7 +1217,7 @@ footer {
     font-size: 20px;
   }
 }
-/*REVIEW*/
+
 .row-customer {
   max-width: 1140px;
   margin: 0 auto 0 auto;

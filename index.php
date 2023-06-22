@@ -31,10 +31,10 @@
             <div class="header-list" id="headerl">
                 <i class="fa fa-times" onclick="hideMenu()"></i>
                 <ul>
-                    <li><a class="scroll" href="#about-us">About Us</a></li>
-                    <li><a class="scroll" href="#vol-sect">Volunteer</a></li>
-                    <li><a href="donate.php" target="_blank">Donate</a></li>
                     <li><a href="help.php" target="_blank">Get Help</a></li>
+                    <li><a class="scroll" href="#about-us">About Us</a></li>
+                    <li><a class="scroll" href="#vol-sect">Volunteers</a></li>
+                    <li><a href="login.php" target="_blank">Admin</a></li>
                 </ul>
             </div>
             <i class="fa fa-bars" onclick="showMenu()"></i>
@@ -43,7 +43,7 @@
             <h1> Start </h1>
             <h1>Saving Lives </h1>
             <p>Become a donor or request for blood And help save lives</p>
-            <a href='Regis2.php' class="hero-btn" target="_blank">Register</a>
+            <a href='Register.php' class="hero-btn" target="_blank">Donate</a>
         </div>
     </header>
 

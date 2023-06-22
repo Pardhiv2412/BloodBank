@@ -1,3 +1,45 @@
+
+<?php
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
+  $username = $_POST["username"];
+  $password = $_POST["password"];
+  // Database connection configuration
+  $localhost = "localhost";
+  $username_db = "root";
+  $password_db = "Pachu@2412";
+  $dbname = "testdb";
+  $flag=0;
+
+  // Create a database connection
+  $conn = new mysqli($localhost, $username_db, $password_db, $dbname);
+
+  // Check for connection errors
+  if ($conn->connect_error) {
+    die("Connection failed: " . $conn->connect_error);
+  }
+
+  // Prepare and execute the query
+  $sql="select * from admins where username='$username'";
+  $result=$conn->query($sql);
+  while($row=$result->fetch_assoc()) {
+    if($row['password']==$password){
+      $flag=1;
+      $loggedInUsername = $row['Name'];
+      session_start();
+      $_SESSION['Name'] = $loggedInUsername;
+      break;
+    }
+  }
+  if($flag==0){
+    $error = "Invalid username or password. Please try again.";
+  }
+  else {
+    header("Location: selectdonor.php");
+      exit();
+  }
+  mysqli_close($conn);
+}
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -129,17 +171,19 @@
         </g>
       </svg>
     </div>
-
-    <form onSubmit="return false;" method="POST" class="form login">
+    <?php if (isset($error)): ?>
+      <p  class="error"><?php echo $error; ?></p>
+    <?php endif; ?>
+    <form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>" method="post" class="form login">
       <div class="form__field form__field--email">
         <label class="label label--icon" for="login__email">
           <svg class="icon">
             <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#user"></use>
           </svg>
-          <span class="hidden">Email</span>
+          <span class="hidden">username</span>
         </label>
         <div class="form__input-wrapper">
-          <input id="login__email" type="text" name="email" class="form__input" placeholder="Email" required>
+          <input id="login__email" type="text" name="username" class="form__input" placeholder="username" required>
           <!--
               FF is ignoring position relative of form__input-wrapper so added a wrapper for .underline.
               NOTE: just the precense of this comment fixes this FF issue (making the underline-wrapper unncessary).

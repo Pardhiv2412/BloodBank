@@ -2,13 +2,13 @@
 <html>
 <head>
   <title>Blood Donation Registration</title>
-  <link rel="stylesheet" href="style3.css">
+  <link rel="stylesheet" href="Register.css">
 </head>
 <body>
   <h2>Blood Donation Registration Form</h2>
-  <form action ="connect.php" method="POST">
+  <form action ="registerDB.php" method="POST">
     <label for="name">Name:</label>
-    <input type="text" id="name" name="name" required><br><br>
+    <input type="text" id="name" name="name" placeholder="eg:Abcd Xyz" required><br><br>
 
     <label for="dob">Date of Birth:</label>
     <input type="date" id="dob" name="dob" required><br><br>
@@ -17,10 +17,10 @@
     <input type="date" id="last_donation" name="last_donation" required><br><br>
 
     <label for="email">Email:</label>
-    <input type="email" id="email" name="email" required><br><br>
+    <input type="email" id="email" name="email" placeholder="eg:Abcde@gmail.com" required><br><br>
 
     <label for="phone">Phone Number:</label>
-    <input type="tel" id="phone" name="phone" required><br><br>
+    <input type="tel" id="phone" name="phone" placeholder="eg:9876543210" required><br><br>
 
     <label for="address">Address:</label>
     <textarea id="address" name="address" required></textarea><br><br>

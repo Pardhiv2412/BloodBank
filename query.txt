@@ -1,0 +1,9 @@
+> Points To Note:
+-database name should be "testdb".
+-try to change sql password to "Pachu@2412" (so that git push and pull changes wont affcet sql password value).
+-to change password of sql use query : " ALTER user 'root'@'localhost' IDENTIFIED BY 'Pachu@2412'; "
+
+TO CREATE ADMIN TABLE FOR LOGIN
+CREATE TABLE admins (Name varchar(20),username varchar(20) PRIMARY KEY,password varchar(20));
+INSERT INTO admins VALUES ('Nikhitha Eldhose','nikki','nikki'),('Parvathy VP','veepee','veepee'),('Noel Susan Mathew','noel','noel');
+INSERT INTO admins VALUES ('Parvathy S Nair','paru','paru'),('Pardhiv Krishna','pachu','pachu'),('Siavanand S','siva','siva');
