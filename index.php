@@ -43,7 +43,7 @@
             <h1> Start </h1>
             <h1>Saving Lives </h1>
             <p>Become a donor or request for blood And help save lives</p>
-            <a href='Regis2.php' class="hero-btn" target="_blank">Donate</a>
+            <a href='Register.php' class="hero-btn" target="_blank">Donate</a>
         </div>
     </header>
 

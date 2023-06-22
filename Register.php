@@ -2,11 +2,11 @@
 <html>
 <head>
   <title>Blood Donation Registration</title>
-  <link rel="stylesheet" href="style3.css">
+  <link rel="stylesheet" href="Register.css">
 </head>
 <body>
   <h2>Blood Donation Registration Form</h2>
-  <form action ="connect.php" method="POST">
+  <form action ="registerDB.php" method="POST">
     <label for="name">Name:</label>
     <input type="text" id="name" name="name" placeholder="eg:Abcd Xyz" required><br><br>
 

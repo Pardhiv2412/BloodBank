@@ -51,7 +51,7 @@
   <div class="container">
     <h2>Error: Duplicate Phone Number</h2>
     <p>The phone number you entered is already registered.</p>
-    <a href="regis2.php" class="button">Go Back</a>
+    <a href="Register.php" class="button">Go Back</a>
   </div>
 </body>
 </html>
