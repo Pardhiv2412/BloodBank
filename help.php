@@ -10,7 +10,7 @@
     <link rel="icon" href='blood-removebg-preview.png' type="image/png">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
 </head>
-<title>Connect with us </title>
+<title>Blood Request</title>
 
 <body>
 

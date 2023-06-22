@@ -21,7 +21,7 @@ try{
              header("Location:print.html");
         }
 }
-catch (mysqli_sql_exception $e) {
+catch(mysqli_sql_exception $e) {
         $errorCode = $e->getCode();
         if ($errorCode === 1062){
                 header("Location: error.php");
