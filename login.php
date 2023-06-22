@@ -174,7 +174,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     <?php if (isset($error)): ?>
       <p  class="error"><?php echo $error; ?></p>
     <?php endif; ?>
-    <form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>" method="post" class="form login">
+    <form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>" method="post" class="form login" target="_self">
       <div class="form__field form__field--email">
         <label class="label label--icon" for="login__email">
           <svg class="icon">

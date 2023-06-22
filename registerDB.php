@@ -18,9 +18,7 @@ if($conn === false){
 $sql = "INSERT INTO form  VALUES ('$firstname','$dob','$lstdate','$address','$email','$phno','$bldgrp')";
 try{
         if(mysqli_query($conn, $sql)){
-                
              header("Location:print.html");
-
         }
 }
 catch (mysqli_sql_exception $e) {

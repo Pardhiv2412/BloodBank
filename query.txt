@@ -5,5 +5,104 @@
 
 TO CREATE ADMIN TABLE FOR LOGIN
 CREATE TABLE admins (Name varchar(20),username varchar(20) PRIMARY KEY,password varchar(20));
-INSERT INTO admins VALUES ('Nikhitha Eldhose','nikki','nikki'),('Parvathy VP','veepee','veepee'),('Noel Susan Mathew','noel','noel');
-INSERT INTO admins VALUES ('Parvathy S Nair','paru','paru'),('Pardhiv Krishna','pachu','pachu'),('Siavanand S','siva','siva');
+INSERT INTO admins VALUES ('Nikhitha Eldhose','nikki','nikki'),('Parvathy VP','veepee','veepee'),('Noel Susan Mathew','noel','noel'),
+('Parvathy S Nair','paru','paru'),('Pardhiv Krishna','pachu','pachu'),('Siavanand S','siva','siva');
+
+ CREATE TABLE helpform (name varchar(20),email varchar(30),phone varchar(20),messgae varchar(100));
+
+INSERT INTO form 
+VALUES
+    ('John Smith', '1990-05-15', '2023-06-01', '123 Main St, City', 'john@example.com', '9123456781', 'A+'),
+    ('Jane Doe', '1985-09-20', '2023-05-28', '456 Elm St, Town', 'jane@example.com', '9123456782', 'B-'),
+    ('Michael Johnson', '1992-03-10', '2023-06-05', '789 Oak St, Village', 'michael@example.com', '9123456783', 'O+'),
+    ('Sarah Williams', '1978-12-01', '2023-06-08', '321 Pine St, City', 'sarah@example.com', '9123456784', 'AB+'),
+    ('Robert Thompson', '1982-07-16', '2023-06-03', '654 Cedar St, Town', 'robert@example.com', '9123456785', 'A-'),
+    ('Emily Johnson', '1994-08-27', '2023-06-02', '987 Oak Ave, Town', 'emily@example.com', '9123456786', 'B+'),
+    ('David Wilson', '1988-11-10', '2023-06-04', '456 Elm St, City', 'david@example.com', '9123456787', 'O-'),
+    ('Olivia Davis', '1996-01-12', '2023-06-07', '789 Pine Ave, Village', 'olivia@example.com', '9123456788', 'AB-'),
+    ('William Thompson', '1991-03-18', '2023-06-06', '321 Cedar St, City', 'william@example.com', '9123456789', 'A+'),
+    ('Sophia Harris', '1993-06-25', '2023-06-09', '654 Oak Ave, Town', 'sophia@example.com', '9123456790', 'B-'),
+    ('Ethan Martinez', '1997-09-02', '2023-06-12', '987 Elm St, City', 'ethan@example.com', '9123456791', 'O+'),
+    ('Ava Clark', '1989-12-05', '2023-06-11', '456 Pine Ave, Village', 'ava@example.com', '9123456792', 'AB+'),
+    ('Noah Adams', '1995-02-15', '2023-06-14', '789 Cedar St, Town', 'noah@example.com', '9123456793', 'A-'),
+    ('Isabella Walker', '1990-04-20', '2023-06-13', '321 Oak Ave, City', 'isabella@example.com', '9123456794', 'B+'),
+    ('James Rodriguez', '1992-07-28', '2023-06-16', '654 Elm St, Village', 'james@example.com', '9123456795', 'O-'),
+    ('Liam Parker', '1987-12-08', '2023-06-17', '987 Pine Ave, City', 'liam@example.com', '9123456796', 'B+'),
+    ('Mia Bennett', '1995-02-03', '2023-06-20', '456 Cedar St, Village', 'mia@example.com', '9123456797', 'O-'),
+    ('Benjamin Carter', '1990-04-19', '2023-06-19', '789 Oak Ave, Town', 'benjamin@example.com', '9123456798', 'AB+'),
+    ('Avery Scott', '1992-07-11', '2023-06-22', '321 Elm St, City', 'avery@example.com', '9123456799', 'A-'),
+    ('Emma Turner', '1993-09-14', '2023-06-18', '654 Pine Ave, Village', 'emma@example.com', '9123456800', 'A+'),
+    ('Henry Morris', '1989-01-29', '2023-06-24', '987 Cedar St, Town', 'henry@example.com', '9123456801', 'O+'),
+    ('Amelia Hughes', '1994-03-17', '2023-06-27', '456 Oak Ave, City', 'amelia@example.com', '9123456802', 'AB-'),
+    ('Daniel Foster', '1988-06-09', '2023-06-26', '789 Pine Ave, Village', 'daniel@example.com', '9123456803', 'A+'),
+    ('Sofia Simmons', '1991-09-21', '2023-06-29', '321 Cedar St, City', 'sofia@example.com', '9123456804', 'B-'),
+    ('Elijah Rivera', '1993-12-05', '2023-06-30', '654 Oak Ave, Town', 'elijah@example.com', '9123456805', 'O-'),
+    ('Grace Stewart', '1996-02-20', '2023-07-03', '987 Elm St, City', 'grace@example.com', '9123456806', 'B+'),
+    ('Alexander Price', '1990-05-14', '2023-07-02', '456 Pine Ave, Village', 'alexander@example.com', '9123456807', 'O-'),
+    ('Sofia Torres', '1995-07-12', '2023-07-05', '789 Cedar St, Town', 'sofia@example.com', '9123456808', 'AB+'),
+    ('Julian Ross', '1987-09-18', '2023-07-04', '321 Oak Ave, City', 'julian@example.com', '9123456809', 'A+'),
+    ('Audrey Reed', '1992-11-25', '2023-07-07', '654 Elm St, Village', 'audrey@example.com', '9123456810', 'B-');
+
+INSERT INTO form 
+VALUES
+    ('Sarah Johnson', '1985-02-14', '2023-05-10', '123 Main St, City', 'sarah@example.com', '9887654321', 'A+'),
+    ('Michael Smith', '1990-07-22', '2023-06-01', '456 Elm St, City', 'michael@example.com', '9876543210', 'B+'),
+    ('Jessica Davis', '1995-09-30', '2023-05-18', '789 Oak St, City', 'jessica@example.com', '9865432109', 'O+'),
+    ('Christopher Wilson', '1988-11-05', '2023-06-08', '321 Maple Ave, City', 'christopher@example.com', '9854321098', 'AB+'),
+    ('Ashley Thompson', '1992-04-17', '2023-05-25', '654 Pine St, City', 'ashley@example.com', '9843210987', 'A-'),
+    ('Ryan Harris', '1993-08-12', '2023-06-05', '789 Birch Ln, City', 'ryan@example.com', '9832109876', 'B-'),
+    ('Lauren Martinez', '1987-03-28', '2023-05-15', '987 Cedar Rd, City', 'lauren@example.com', '9821098765', 'O-'),
+    ('Brandon Clark', '1996-12-10', '2023-06-10', '345 Oak Ave, City', 'brandon@example.com', '9810987654', 'AB-'),
+    ('Amanda Adams', '1989-06-25', '2023-05-20', '678 Elm Ln, City', 'amanda@example.com', '9809876543', 'A+'),
+    ('Kevin Walker', '1994-01-07', '2023-06-03', '234 Pine Rd, City', 'kevin@example.com', '9798765432', 'B+'),
+    ('Rachel Evans', '1991-09-15', '2023-05-12', '567 Maple St, City', 'rachel@example.com', '9787654321', 'O+'),
+    ('Thomas Turner', '1986-05-02', '2023-06-06', '890 Cedar Ave, City', 'thomas@example.com', '9776543210', 'AB+'),
+    ('Melissa Stewart', '1997-02-19', '2023-05-22', '123 Oak Ln, City', 'melissa@example.com', '9765432109', 'A-'),
+    ('John Parker', '1998-11-29', '2023-06-02', '456 Elm Rd, City', 'john@example.com', '9754321098', 'B-'),
+    ('Stephanie Morris', '1993-07-07', '2023-05-17', '789 Pine Ave, City', 'stephanie@example.com', '9743210987', 'O-'),
+    ('Robert Simmons', '1990-04-01', '2023-06-07', '321 Cedar St, City', 'robert@example.com', '9732109876', 'AB-'),
+    ('Emily Rodriguez', '1988-10-18', '2023-05-14', '654 Maple Rd, City', 'emily@example.com', '9721098765', 'A+'),
+    ('Daniel Lopez', '1995-03-11', '2023-06-09', '987 Oak Ave, City', 'daniel@example.com', '9710987654', 'B+'),
+    ('Olivia Butler', '1992-07-26', '2023-05-23', '345 Pine Ln, City', 'olivia@example.com', '9709876543', 'O+'),
+    ('Justin Murphy', '1991-02-05', '2023-06-04', '678 Elm Rd, City', 'justin@example.com', '9698765432', 'AB+'),
+    ('Grace Hill', '1996-12-20', '2023-05-19', '234 Cedar St, City', 'grace@example.com', '9687654321', 'A-'),
+    ('Aaron Foster', '1989-08-08', '2023-06-01', '567 Maple Ave, City', 'aaron@example.com', '9676543210', 'B-'),
+    ('Samantha Powell', '1994-05-16', '2023-05-16', '890 Pine Rd, City', 'samantha@example.com', '9665432109', 'O-'),
+    ('Nicholas Bennett', '1987-09-23', '2023-06-08', '123 Oak Ln, City', 'nicholas@example.com', '9654321098', 'AB-'),
+    ('Elizabeth Cook', '1993-04-06', '2023-05-24', '456 Elm Ave, City', 'elizabeth@example.com', '9643210987', 'A+'),
+    ('Matthew Ross', '1991-10-14', '2023-06-05', '789 Pine St, City', 'matthew@example.com', '9632109876', 'B+'),
+    ('Alexis Turner', '1996-05-01', '2023-05-11', '987 Cedar Ln, City', 'alexis@example.com', '9621098765', 'O+'),
+    ('Joshua Reed', '1988-12-15', '2023-06-09', '321 Maple Rd, City', 'joshua@example.com', '9610987654', 'AB+'),
+    ('Natalie King', '1995-07-29', '2023-05-21', '654 Pine Ave, City', 'natalie@example.com', '9609876543', 'A-'),
+    ('Andrew Scott', '1992-03-12', '2023-06-03', '987 Cedar St, City', 'andrew@example.com', '9598765432', 'B-');
+
+
+
+
+INSERT INTO helpform 
+VALUES
+    ('John Smith', 'john@example.com', '9812345671', 'I urgently need B+ blood group for my relative who is undergoing surgery tomorrow.'),
+    ('Emily Johnson', 'emily@example.com', '8923456782', 'Looking for O- blood group for a patient in critical condition.'),
+    ('David Wilson', 'david@example.com', '8834567893', 'We need AB+ blood group for a planned transfusion next week.'),
+    ('Olivia Davis', 'olivia@example.com', '8845678904', 'Seeking A- blood group for a child with a chronic illness.'),
+    ('William Thompson', 'william@example.com', '8956789015', 'Urgently require O+ blood group for an accident victim.'),
+    ('Sophia Harris', 'sophia@example.com', '8967890126', 'We are in need of B- blood group for a scheduled surgery.'),
+    ('Ethan Martinez', 'ethan@example.com', '8878901237', 'Looking for AB+ blood group for a patient undergoing chemotherapy.'),
+    ('Ava Clark', 'ava@example.com', '8889012348', 'Seeking O- blood group for an emergency transfusion.'),
+    ('Noah Adams', 'noah@example.com', '8890123459', 'Urgently need A+ blood group for a premature newborn.'),
+    ('Isabella Walker', 'isabella@example.com', '8901234560', 'We require B+ blood group for a patient with a blood disorder.'),
+    ('Sophie Johnson', 'sophie@example.com', '8912345671', 'Looking for O- blood group for a patient undergoing surgery.'),
+    ('Lucas Anderson', 'lucas@example.com', '8923456782', 'Seeking AB+ blood group for a critical surgery.'),
+    ('Emma Wilson', 'emma@example.com', '8934567893', 'Urgently need A- blood group for an accident victim.'),
+    ('Benjamin Davis', 'benjamin@example.com', '8945678904', 'We require B+ blood group for a scheduled transfusion next week.'),
+    ('Oliver Thompson', 'oliver@example.com', '8956789015', 'Looking for O+ blood group for a patient with a chronic illness.'),
+    ('Charlotte Martinez', 'charlotte@example.com', '8967890126', 'Seeking AB- blood group for a patient in critical condition.'),
+    ('Mia Clark', 'mia@example.com', '8878901237', 'Urgently need A+ blood group for an emergency transfusion.'),
+    ('Amelia Adams', 'amelia@example.com', '8889012348', 'Looking for B- blood group for a premature newborn.'),
+    ('Harper Walker', 'harper@example.com', '8890123459', 'We require O- blood group for a patient with a blood disorder.'),
+    ('Liam Harris', 'liam@example.com', '8901234560', 'Seeking AB+ blood group for a patient undergoing surgery tomorrow.'),
+    ('Oliver Smith', 'oliver@example.com', '8912345671', 'Urgently need A+ blood group for a patient in critical condition.'),
+    ('Sophia Johnson', 'sophia@example.com', '8923456782', 'Looking for O- blood group for a child with a rare blood type.'),
+    ('Noah Anderson', 'noah@example.com', '8934567893', 'We require AB+ blood group for a patient undergoing chemotherapy.'),
+    ('Emma Wilson', 'emma@example.com', '8945678904', 'Seeking B- blood group for a patient with a chronic illness.'),
+    ('Lucas Thompson', 'lucas@example.com', '8956789015', 'Urgently need O+ blood group for an accident victim.');

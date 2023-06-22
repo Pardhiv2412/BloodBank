@@ -31,7 +31,7 @@
             <div class="header-list" id="headerl">
                 <i class="fa fa-times" onclick="hideMenu()"></i>
                 <ul>
-                    <li><a href="help.php" target="_blank">Get Help</a></li>
+                    <li><a href="help.php" target="_blank">In-Need</a></li>
                     <li><a class="scroll" href="#about-us">About Us</a></li>
                     <li><a class="scroll" href="#vol-sect">Volunteers</a></li>
                     <li><a href="login.php" target="_blank">Admin</a></li>

@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Blood Donor Details</title>
-    <link rel="stylesheet" href='selectdonor.css'>
+    <title>Blood Donors List</title>
+    <link rel="stylesheet" href='select.css'>
     <script>
         document.addEventListener('DOMContentLoaded', function() {
             var bloodGroupDropdown = document.getElementById('blood-group');
@@ -24,8 +24,11 @@
 </head>
 <body>
     <div id="header">
+    <img src="user-removebg-preview.png" alt="Customer photo">
         <h1 >AVAILABLE BLOOD DONORS</h1>
     </div>
+    <div class="button-container">
+    <a id="donor" href="selectrequest.php">Pending Requests</a></div>
     <a id="back-button" href="index.php">Home</a>
     <div id="blood-group-filter">
         <form method="get">

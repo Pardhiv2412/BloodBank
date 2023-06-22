@@ -15,11 +15,10 @@ if($conn === false){
 
 $sql = "INSERT INTO helpform  VALUES ('$name','$email','$phno','$msg')";
 if(mysqli_query($conn, $sql)){
-            echo "<h3>Data stored in a database successfully.";
+  header("Location: printhelp.html");
 }
 else{
-    echo "ERROR: Hush! Sorry $sql. "
-            . mysqli_error($conn);
+  echo "ERROR: Hush! Sorry $sql. ". mysqli_error($conn);
 }
 mysqli_close($conn);
 ?>

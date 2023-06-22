@@ -19,10 +19,9 @@
             <div class="header-logo"><img src="blood-removebg-preview.png"></div>
             <div class="header-list">
                 <ul>
-        
-                    <li><a href="donate.php">Donate</a></li>
-                    <li><a href="index.php#vol-sect">Volunteer</a></li>
                     <li><a href="index.php#about-us">About Us</a></li>
+                    <li><a href="donate.php">Donate</a></li>
+                    <li><a href="index.php">Home</a></li>
                 </ul>
             </div>
         </nav>
@@ -37,10 +36,10 @@
                 <div class="right">
                 <form action ="connecthelp.php" method="POST">
                     <h2>Connect with us </h2>
-                    <input type="text" class="field" placeholder="Your Name" id="name" name="name">
-                    <input type="email" class="field" placeholder="Your Email" id="email" name="email">
-                    <input type="tel" class="field" placeholder="Phone" id="phone" name="phone">
-                    <textarea placeholder="Message" class="field" id="message" name="message"></textarea>
+                    <input type="text" class="field" placeholder="Your Name" id="name" name="name" required>
+                    <input type="email" class="field" placeholder="Your Email" id="email" name="email" required>
+                    <input type="tel" class="field" placeholder="Phone" id="phone" name="phone" required>
+                    <textarea placeholder="Message (include blood group and date)" class="field" id="message" name="message" required></textarea>
                     <button class="btn">Submit</button>
                 </form>
                 </div>
